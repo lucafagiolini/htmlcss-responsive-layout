@@ -5,3 +5,29 @@
 }
 
 /* reset rule */
+
+/* nav */
+nav {
+    border-style: dotted;
+    /* test */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+    padding: 15px 30px 15px 30px;
+
+    background-color: #0084fd;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end nav  */

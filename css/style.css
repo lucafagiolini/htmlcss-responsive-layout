@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* reset rule */
@@ -26,8 +27,49 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: white;
+    font-size: 23px;
 }
 
 /* end nav  */
+
+
+
+/* demo app */
+#demo-app {
+    border-style: dashed;
+    width: 100vw;
+    height: auto;
+
+    padding: 50px 30px 50px 30px;
+
+    /* test */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.light-rounded-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    border-radius: 10px;
+    background-color: #b5ddff;
+}
+
+.light-rounded-box a {
+    font-size: 50px;
+    color: #0084fd;
+}
+
+.light-rounded-box img {
+    width: 100%;
+}
+
+
+/* end demo app */

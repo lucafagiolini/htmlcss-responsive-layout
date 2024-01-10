@@ -172,3 +172,17 @@ nav a {
 }
 
 /* end about us section */
+
+
+
+
+/* get started section */
+#get-started {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    background-color: #9792e4;
+}
+
+/* end get started section */

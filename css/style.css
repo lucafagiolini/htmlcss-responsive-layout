@@ -78,14 +78,14 @@ nav a {
 
 
 /* strategic plan section */
-#strategic_plan {
+#strategic-plan {
     border-style: dashed;
     /* test */
     padding: 50px 30px 50px 30px;
     background-color: #9792e4;
 }
 
-#strategic_plan img {
+#strategic-plan img {
     width: 100%;
 }
 
@@ -95,8 +95,35 @@ nav a {
     padding: 30px 20px 30px 20px;
     border-radius: 30px;
     background-color: white;
-
-
 }
 
 /* end strategic plan section */
+
+
+
+
+/* testimonials section */
+#testimonials {
+    border-style: dotted;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+    padding: 30px 20px 30px 20px;
+}
+
+#testimonials .heavy-rounded-box {
+    border-style: dotted;
+    /* test */
+    text-align: center;
+    background-color: #9792e4;
+}
+
+#testimonials .testimonial-pic {}
+
+#testimonials img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+/* end testimonial section */

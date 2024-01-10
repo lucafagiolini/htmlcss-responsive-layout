@@ -186,3 +186,25 @@ nav a {
 }
 
 /* end get started section */
+
+
+
+
+
+/* footer */
+footer {
+    padding: 30px 20px 30px 20px;
+    background-color: #333333;
+    text-align: center;
+
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: #9792e4;
+}
+
+/* end footer */

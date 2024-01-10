@@ -63,6 +63,22 @@ nav a {
     background-color: #b5ddff;
 }
 
+.double-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    border-radius: 10px;
+    background-color: #b5ddff;
+
+}
+
+.double-box img {
+    width: 100%;
+    max-width: 200px;
+}
+
 .light-rounded-box a {
     font-size: 50px;
     color: #0084fd;
@@ -70,6 +86,7 @@ nav a {
 
 .light-rounded-box img {
     width: 100%;
+    max-width: 200px;
 }
 
 
@@ -208,3 +225,38 @@ footer a {
 }
 
 /* end footer */
+
+
+
+/* ------------------------ */
+/* ------ RESPONSIVE ------ */
+/* ------------------------ */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #demo-app .container {
+        border-style: dotted;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #demo-app .light-rounded-box {
+        width: calc(100%/3);
+
+    }
+
+    .double-box {
+        width: calc(100%/3*2);
+        border-style: dotted;
+        /* test */
+        padding: 30px 20px 30px 20px;
+        border-radius: 30px;
+        background-color: #b5ddff;
+    }
+
+    .double-box img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+
+}

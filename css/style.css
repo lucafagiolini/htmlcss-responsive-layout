@@ -38,6 +38,7 @@ nav a {
 /* demo app */
 #demo-app {
     border-style: dashed;
+    /* test */
     width: 100vw;
     height: auto;
 
@@ -73,3 +74,29 @@ nav a {
 
 
 /* end demo app */
+
+
+
+/* strategic plan section */
+#strategic_plan {
+    border-style: dashed;
+    /* test */
+    padding: 50px 30px 50px 30px;
+    background-color: #9792e4;
+}
+
+#strategic_plan img {
+    width: 100%;
+}
+
+.heavy-rounded-box {
+    border-style: dotted;
+    /* test */
+    padding: 30px 20px 30px 20px;
+    border-radius: 30px;
+    background-color: white;
+
+
+}
+
+/* end strategic plan section */

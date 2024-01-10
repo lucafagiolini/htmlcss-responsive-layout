@@ -127,3 +127,27 @@ nav a {
 }
 
 /* end testimonial section */
+
+
+
+
+/* working with us section */
+#working-with-us {
+    border-style: dotted;
+    /* test */
+    padding: 30px 20px 30px 20px;
+    background-color: #9792e4;
+
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#working-with-us .light-rounded-box {
+    background-color: white;
+}
+
+/* end working with us section */

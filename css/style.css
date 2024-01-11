@@ -130,6 +130,13 @@ nav a {
     padding: 30px 20px 30px 20px;
 }
 
+#testimonials div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #testimonials .heavy-rounded-box {
     border-style: dotted;
     /* test */
@@ -137,7 +144,9 @@ nav a {
     background-color: #9792e4;
 }
 
-#testimonials .testimonial-pic {}
+#testimonials .testimonial-pic {
+    padding: 30px;
+}
 
 #testimonials img {
     width: 150px;
@@ -281,9 +290,28 @@ footer a {
         align-items: center;
     }
 
+    #testimonials div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-}
 
-/* ------------------------ */
-/* ------ end 768px ------- */
-/* ------------------------ */
+    }
+
+    #testimonials .heavy-rounded-box {
+        display: flex;
+    }
+
+    #testimonials .heavy-rounded-box div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+
+
+    }
+
+    /* ------------------------ */
+    /* ------ end 768px ------- */
+    /* ------------------------ */

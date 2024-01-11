@@ -441,6 +441,10 @@ footer a {
         width: calc(100%/3);
     }
 
+    #about-us {
+        flex-direction: row;
+    }
+
 }
 
 /* ------------------------------- */

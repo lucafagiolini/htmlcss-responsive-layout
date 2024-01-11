@@ -68,7 +68,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px 30px 40px 30px;
+    padding: 40px 30px 0px 30px;
     border-radius: 10px;
     background-color: #b5ddff;
 
@@ -104,6 +104,7 @@ nav a {
 
 #strategic-plan img {
     width: 100%;
+    max-width: 450px;
 }
 
 .heavy-rounded-box {
@@ -139,8 +140,10 @@ nav a {
 #testimonials .testimonial-pic {}
 
 #testimonials img {
-    width: 200px;
-    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* end testimonial section */
@@ -232,6 +235,11 @@ footer a {
 /* ------ RESPONSIVE ------ */
 /* ------------------------ */
 
+/* ------------------------ */
+/* --------- 768px -------- */
+/* ------------------------ */
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #demo-app .container {
         border-style: dotted;
@@ -245,10 +253,13 @@ footer a {
     }
 
     .double-box {
-        width: calc(100%/3*2);
         border-style: dotted;
         /* test */
-        padding: 30px 20px 30px 20px;
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        width: calc(100%/3*2);
+        padding: 40px 30px 0px 30px;
         border-radius: 30px;
         background-color: #b5ddff;
     }
@@ -258,5 +269,21 @@ footer a {
         max-width: 200px;
     }
 
+    #strategic-plan .container div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #strategic-plan .container .heavy-rounded-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
 }
+
+/* ------------------------ */
+/* ------ end 768px ------- */
+/* ------------------------ */

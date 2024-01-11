@@ -164,9 +164,15 @@ nav a {
 #working-with-us {
     border-style: dotted;
     /* test */
-    padding: 30px 20px 30px 20px;
+    padding: 30px 20px 65px 20px;
     background-color: #9792e4;
 
+}
+
+#working-with-us .title-box {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 70px 0px;
 }
 
 #grid-container {
@@ -177,6 +183,22 @@ nav a {
 
 #working-with-us .light-rounded-box {
     background-color: white;
+}
+
+#working-with-us .light-rounded-box h3 {
+    padding: 20px;
+}
+
+#working-with-us .light-rounded-box h4 {
+    padding: 20px;
+}
+
+#working-with-us .light-rounded-box p {
+    padding: 20px;
+}
+
+#working-with-us .light-rounded-box button {
+    padding: 20px;
 }
 
 /* end working with us section */
@@ -310,6 +332,15 @@ footer a {
         text-align: left;
 
 
+    }
+
+    #working-with-us #grid-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #working-with-us #grid-container .light-rounded-box {
+        width: calc(100%/2);
     }
 
     /* ------------------------ */

@@ -432,9 +432,14 @@ footer a {
         flex-direction: row;
     }
 
-    /* #working-with-us #grid-container .light-rounded-box {
+    #working-with-us #grid-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #working-with-us #grid-container .light-rounded-box {
         width: calc(100%/3);
-    } */
+    }
 
 }
 
